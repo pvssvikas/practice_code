@@ -1,18 +1,16 @@
-//
-//  main.cpp
-//  practice_code
-//
-//  Created by Vikas Putcha on 03/01/14.
-//  Copyright (c) 2014 Vikas Putcha. All rights reserved.
-//
-
 #include <iostream>
+#include <linkedList.h>
 
-int main(int argc, const char * argv[])
-{
+using namespace std;
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main (int argc, char* argv[]) {
+
+  PRACTICE::Node<int> data;
+
+  data.setData(3);
+
+  cout << data.getData() << endl; 
+
+  cout << "hello world" << endl;
+  return 0;
 }
-

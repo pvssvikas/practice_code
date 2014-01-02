@@ -1,0 +1,23 @@
+
+
+namespace PRACTICE {
+
+  template <typename T> class Node {
+    T data;
+    void setData(T val) {
+      this->data = val;
+    }
+    T getData(void) {
+      return this->data;
+    }
+  };
+
+  /* 
+ template <typename  DATA> class SingleLinkedList {
+    DATA d;
+  public:
+    addNode(
+  };
+  */
+
+}
