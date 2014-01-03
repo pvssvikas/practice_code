@@ -1,15 +1,15 @@
 
-PRJ_DIR=/Users/vikas/rnd/dsPractice/dataStructurePractice
+PRJ_DIR=~/rnd/xcodeApps/gitRepos/practice_code
 SRC=$(PRJ_DIR)/src
 INC_DIR=$(PRJ_DIR)/include
 OBJ_DIR=$(PRJ_DIR)/obj
 
 
 CC=g++
-CFLAGS=-I$(INC_DIR)
-LD_FLAGS=
+CFLAGS = -g -I $(INC_DIR)
+LD_FLAGS =
 
-_OBJ = main.o
+_OBJ = main.o linkedList.o
 
 $(OBJ_DIR)/%.o:	$(SRC)/%.cpp
 	$(CC) -c -o $@ $< $(CFLAGS)
